@@ -201,3 +201,10 @@ dist
 ### OpenNext ###
 .open-next/
 next-env.d.ts
+
+### IDE ###
+.vscode/
+.idea/
+*.swp
+*.swo
+QYCtoolkit

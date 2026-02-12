@@ -1,0 +1,8 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="64" height="64" fill="#0B1D3A"/>
+  <rect x="5" y="8" width="54" height="40" rx="2" stroke="#B8923F" stroke-width="1.5" fill="none"/>
+  <text x="14" y="38" text-anchor="middle" font-family="'Cormorant Garamond', serif" font-size="26" font-weight="600" fill="#FFFFFF">Q</text>
+  <text x="32" y="38" text-anchor="middle" font-family="'Cormorant Garamond', serif" font-size="26" font-weight="600" fill="#B8923F">Y</text>
+  <text x="50" y="38" text-anchor="middle" font-family="'Cormorant Garamond', serif" font-size="26" font-weight="600" fill="#FFFFFF">C</text>
+  <line x1="5" y1="52" x2="59" y2="52" stroke="#B8923F" stroke-width="1"/>
+</svg>

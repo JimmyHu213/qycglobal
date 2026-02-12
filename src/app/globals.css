@@ -1,26 +1,46 @@
 @import "tailwindcss";
 
 :root {
-	--background: #ffffff;
-	--foreground: #171717;
+	/* Primary */
+	--brand-navy: #0B1D3A;
+	--brand-gold: #B8923F;
+
+	/* Secondary */
+	--brand-navy-mid: #132B50;
+	--brand-gold-light: #D4AF5B;
+	--brand-gold-pale: #E8D5A3;
+
+	/* Neutrals */
+	--brand-slate: #6B7B8D;
+	--brand-off-white: #F5F3EF;
+	--brand-cream: #F8F7F3;
+	--brand-white: #FFFFFF;
+
+	--background: var(--brand-white);
+	--foreground: var(--brand-navy);
 }
 
 @theme inline {
 	--color-background: var(--background);
 	--color-foreground: var(--foreground);
-	--font-sans: var(--font-geist-sans);
-	--font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-	:root {
-		--background: #0a0a0a;
-		--foreground: #ededed;
-	}
+	/* Brand colors for Tailwind utilities (e.g. bg-navy, text-gold) */
+	--color-navy: #0B1D3A;
+	--color-navy-mid: #132B50;
+	--color-gold: #B8923F;
+	--color-gold-light: #D4AF5B;
+	--color-gold-pale: #E8D5A3;
+	--color-slate: #6B7B8D;
+	--color-off-white: #F5F3EF;
+	--color-cream: #F8F7F3;
+
+	/* Fonts for Tailwind utilities (e.g. font-display, font-body) */
+	--font-display: var(--font-display);
+	--font-body: var(--font-body);
 }
 
 body {
 	background: var(--background);
 	color: var(--foreground);
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: var(--font-body), Helvetica, Arial, sans-serif;
 }
